@@ -5,7 +5,7 @@
 This tutorial will include:
 
 - install single node Hadoop on Ubuntu 14.04 (told ya it's old!) 
-- building(as  anexample only...so no security to be expected)a web server in C programming
+- building a web server in C programming (as  an example only...so no security to be expected...)
 - getting data into Hadoop through network traffic
 
 
