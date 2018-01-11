@@ -72,14 +72,14 @@ int main(int  argc, char **argv)
           printf("%s\n",buf);
 
 /*
-* YOLO, no time for different ways!!
-* if(!strncmp(buf,"GET/doctest.jpg",16))
-*{
-*lilkylo=open("doctest.jpg",O_RDONLY);
-*sendfile(client,lilkylo,NULL,68000);
-*close(lilkylo);
-*}
-*else
+**YOLO, no time for different ways!!**
+ if(!strncmp(buf,"GET/doctest.jpg",16))
+{
+lilkylo=open("doctest.jpg",O_RDONLY);
+sendfile(client,lilkylo,NULL,68000);
+close(lilkylo);
+}
+else
 */
 
           write(client,webish,sizeof(webish)-1);
